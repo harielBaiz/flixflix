@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff; }
+
+body {
+  font-size: 16px;
+  background-color: #000; }
+  body .nav-bar {
+    height: 65px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 4%;
+    display: flex;
+    align-items: center;
+    z-index: 100; }
+    body .nav-bar #logoCF {
+      height: 35px;
+      width: auto;
+      margin-right: 25px; }
+    body .nav-bar .primary-nav {
+      list-style: none;
+      display: flex;
+      padding-bottom: 8px; }
+      body .nav-bar .primary-nav li {
+        margin-left: 18px;
+        color: #fff;
+        font-size: .9rem; }
+  body .hero-image-wrapper {
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/movie_cover.png); }
+    body .hero-image-wrapper .content-info {
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: 75%;
+      display: flex;
+      padding: 10% 4%;
+      flex-direction: column;
+      margin-top: 65px;
+      z-index: 10; }
+      body .hero-image-wrapper .content-info .content-volanta {
+        font-size: 1.25rem; }
+      body .hero-image-wrapper .content-info .content-title {
+        font-size: 5rem;
+        line-height: .85;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: -0.3rem;
+        margin-bottom: 1rem; }
+      body .hero-image-wrapper .content-info .content-buttons {
+        margin: 1rem 0; }
+        body .hero-image-wrapper .content-info .content-buttons a.btn {
+          text-decoration: none;
+          padding: 10px 24px;
+          background-color: rgba(157, 151, 151, 0.5);
+          border-radius: 9px;
+          margin-right: .5rem;
+          font-size: 1rem; }
+      body .hero-image-wrapper .content-info .content-description {
+        margin-top: 1rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        max-width: 500px; }
+    body .hero-image-wrapper img {
+      width: auto;
+      position: absolute;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1; }
+  body .section-slider {
+    margin-top: -10vh;
+    z-index: 60;
+    position: relative;
+    padding: 1% 0% 1% 4%; }
+    body .section-slider h2 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem; }
+    body .section-slider .slider-wrapper {
+      overflow: hidden; }
+      body .section-slider .slider-wrapper ul {
+        list-style: none;
+        display: flex; }
+        body .section-slider .slider-wrapper ul li {
+          margin-right: .5rem; }
+
+/*# sourceMappingURL=index.css.map */
